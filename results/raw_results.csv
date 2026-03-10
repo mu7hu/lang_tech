@@ -1,51 +1,761 @@
 item_id,subject,domain,correct_answer,model,raw_output,parsed_answer,correct
-abstract_algebra_0,abstract_algebra,STEM,B,llama-3.1-8b-instant,"To solve this, let",,False
-abstract_algebra_1,abstract_algebra,STEM,A,llama-3.1-8b-instant,To find the characteristic of,,False
-abstract_algebra_2,abstract_algebra,STEM,B,llama-3.1-8b-instant,To find the cosets,,False
-abstract_algebra_3,abstract_algebra,STEM,C,llama-3.1-8b-instant,To find the zeros of,,False
-abstract_algebra_4,abstract_algebra,STEM,C,llama-3.1-8b-instant,"A) True, True",A,False
-abstract_algebra_5,abstract_algebra,STEM,D,llama-3.1-8b-instant,"A) True, True",A,False
-abstract_algebra_6,abstract_algebra,STEM,C,llama-3.1-8b-instant,To find the index of,,False
-abstract_algebra_7,abstract_algebra,STEM,D,llama-3.1-8b-instant,To find the inverse of,,False
-abstract_algebra_8,abstract_algebra,STEM,B,llama-3.1-8b-instant,To determine the correct answer,,False
-abstract_algebra_9,abstract_algebra,STEM,D,llama-3.1-8b-instant,"A
+abstract_algebra_0,abstract_algebra,STEM,B,qwen/qwen3-32b,"<think>
 
-Explanation:",A,False
-abstract_algebra_10,abstract_algebra,STEM,B,llama-3.1-8b-instant,To find the characteristic of,,False
-abstract_algebra_11,abstract_algebra,STEM,C,llama-3.1-8b-instant,"A
+</think>
 
-Explanation:",A,False
-abstract_algebra_12,abstract_algebra,STEM,A,llama-3.1-8b-instant,"A
+D",D,False
+abstract_algebra_1,abstract_algebra,STEM,A,qwen/qwen3-32b,"<think>
 
-Explanation:",A,True
-abstract_algebra_13,abstract_algebra,STEM,D,llama-3.1-8b-instant,"A
+</think>
 
-Explanation:",A,False
-abstract_algebra_14,abstract_algebra,STEM,D,llama-3.1-8b-instant,To find the remainder of,,False
-abstract_algebra_15,abstract_algebra,STEM,C,llama-3.1-8b-instant,"A
+B",B,False
+abstract_algebra_2,abstract_algebra,STEM,B,qwen/qwen3-32b,"<think>
 
-Explanation:",A,False
-abstract_algebra_16,abstract_algebra,STEM,C,llama-3.1-8b-instant,"A
+</think>
 
-Explanation:",A,False
-abstract_algebra_17,abstract_algebra,STEM,B,llama-3.1-8b-instant,The correct answer is A,A,False
-abstract_algebra_18,abstract_algebra,STEM,C,llama-3.1-8b-instant,"A
+B",B,True
+abstract_algebra_3,abstract_algebra,STEM,C,qwen/qwen3-32b,"<think>
 
-Explanation:",A,False
-abstract_algebra_19,abstract_algebra,STEM,B,llama-3.1-8b-instant,To determine whether the polynomial,,False
-abstract_algebra_20,abstract_algebra,STEM,B,llama-3.1-8b-instant,"A
+</think>
 
-Explanation:",A,False
-abstract_algebra_21,abstract_algebra,STEM,A,llama-3.1-8b-instant,To find the sum of,,False
-abstract_algebra_22,abstract_algebra,STEM,A,llama-3.1-8b-instant,"A) True, True",A,True
-abstract_algebra_23,abstract_algebra,STEM,B,llama-3.1-8b-instant,To find the zeros of,,False
-abstract_algebra_24,abstract_algebra,STEM,B,llama-3.1-8b-instant,"A
+C",C,True
+abstract_algebra_4,abstract_algebra,STEM,C,qwen/qwen3-32b,"<think>
 
-Explanation:",A,False
-abstract_algebra_25,abstract_algebra,STEM,B,llama-3.1-8b-instant,To find the maximum possible,,False
-abstract_algebra_26,abstract_algebra,STEM,C,llama-3.1-8b-instant,"A
+</think>
 
-Explanation:",A,False
-abstract_algebra_27,abstract_algebra,STEM,C,llama-3.1-8b-instant,The correct answer is A,A,False
-abstract_algebra_28,abstract_algebra,STEM,A,llama-3.1-8b-instant,To find T(-3,,False
-abstract_algebra_29,abstract_algebra,STEM,C,llama-3.1-8b-instant,The correct answer is A,A,False
+C",C,True
+anatomy_5,anatomy,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,False
+anatomy_6,anatomy,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+anatomy_7,anatomy,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+anatomy_8,anatomy,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+anatomy_9,anatomy,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+astronomy_10,astronomy,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+astronomy_11,astronomy,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+astronomy_12,astronomy,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+astronomy_13,astronomy,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+astronomy_14,astronomy,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+college_biology_15,college_biology,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+college_biology_16,college_biology,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+college_biology_17,college_biology,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+college_biology_18,college_biology,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+college_biology_19,college_biology,STEM,B,qwen/qwen3-32b,"<think>
+</think>
+
+B",B,True
+college_chemistry_20,college_chemistry,STEM,B,qwen/qwen3-32b,"<think>
+</think>
+
+B",B,True
+college_chemistry_21,college_chemistry,STEM,D,qwen/qwen3-32b,"<think>
+</think>
+
+B",B,False
+college_chemistry_22,college_chemistry,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_chemistry_23,college_chemistry,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_chemistry_24,college_chemistry,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_computer_science_25,college_computer_science,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+college_computer_science_26,college_computer_science,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_computer_science_27,college_computer_science,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,False
+college_computer_science_28,college_computer_science,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+college_computer_science_29,college_computer_science,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+college_mathematics_30,college_mathematics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_mathematics_31,college_mathematics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_mathematics_32,college_mathematics,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,False
+college_mathematics_33,college_mathematics,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,False
+college_mathematics_34,college_mathematics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_physics_35,college_physics,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,False
+college_physics_36,college_physics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_physics_37,college_physics,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+college_physics_38,college_physics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+college_physics_39,college_physics,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,False
+conceptual_physics_40,conceptual_physics,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+conceptual_physics_41,conceptual_physics,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+conceptual_physics_42,conceptual_physics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+conceptual_physics_43,conceptual_physics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+conceptual_physics_44,conceptual_physics,STEM,A,qwen/qwen3-32b,"<think>
+</think>
+
+A",A,True
+electrical_engineering_45,electrical_engineering,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,False
+electrical_engineering_46,electrical_engineering,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+electrical_engineering_47,electrical_engineering,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+electrical_engineering_48,electrical_engineering,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+electrical_engineering_49,electrical_engineering,STEM,C,qwen/qwen3-32b,"<think>
+</think>
+
+C",C,True
+elementary_mathematics_50,elementary_mathematics,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,False
+elementary_mathematics_51,elementary_mathematics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+elementary_mathematics_52,elementary_mathematics,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+elementary_mathematics_53,elementary_mathematics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+elementary_mathematics_54,elementary_mathematics,STEM,C,qwen/qwen3-32b,"<think>
+</think>
+
+C",C,True
+formal_logic_55,formal_logic,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+formal_logic_56,formal_logic,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,False
+formal_logic_57,formal_logic,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+formal_logic_58,formal_logic,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+formal_logic_59,formal_logic,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+high_school_biology_60,high_school_biology,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+high_school_biology_61,high_school_biology,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+high_school_biology_62,high_school_biology,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+high_school_biology_63,high_school_biology,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+high_school_biology_64,high_school_biology,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+high_school_chemistry_65,high_school_chemistry,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+high_school_chemistry_66,high_school_chemistry,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+high_school_chemistry_67,high_school_chemistry,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,False
+high_school_chemistry_68,high_school_chemistry,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+high_school_chemistry_69,high_school_chemistry,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+high_school_mathematics_70,high_school_mathematics,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+high_school_mathematics_71,high_school_mathematics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,False
+high_school_mathematics_72,high_school_mathematics,STEM,C,qwen/qwen3-32b,"<think>
+</think>
+
+C) 5",C,True
+high_school_mathematics_73,high_school_mathematics,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,False
+high_school_mathematics_74,high_school_mathematics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+high_school_physics_75,high_school_physics,STEM,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+high_school_physics_76,high_school_physics,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+high_school_physics_77,high_school_physics,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,False
+high_school_physics_78,high_school_physics,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+high_school_physics_79,high_school_physics,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,False
+machine_learning_80,machine_learning,STEM,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+machine_learning_81,machine_learning,STEM,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+machine_learning_82,machine_learning,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+machine_learning_83,machine_learning,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,False
+machine_learning_84,machine_learning,STEM,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+philosophy_85,philosophy,Humanities,D,qwen/qwen3-32b,"<think>
+</think>
+
+A",A,False
+philosophy_86,philosophy,Humanities,C,qwen/qwen3-32b,"<think>
+</think>
+
+C",C,True
+philosophy_87,philosophy,Humanities,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+philosophy_88,philosophy,Humanities,D,qwen/qwen3-32b,"<think>
+</think>
+
+D",D,True
+philosophy_89,philosophy,Humanities,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+professional_law_90,professional_law,Social Science,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+professional_law_91,professional_law,Social Science,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+professional_law_92,professional_law,Social Science,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,False
+professional_law_93,professional_law,Social Science,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,False
+professional_law_94,professional_law,Social Science,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+professional_medicine_95,professional_medicine,Social Science,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+professional_medicine_96,professional_medicine,Social Science,A,qwen/qwen3-32b,"<think>
+
+</think>
+
+A",A,True
+professional_medicine_97,professional_medicine,Social Science,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+professional_medicine_98,professional_medicine,Social Science,D,qwen/qwen3-32b,"<think>
+
+</think>
+
+D",D,True
+professional_medicine_99,professional_medicine,Social Science,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+professional_psychology_100,professional_psychology,Social Science,B,qwen/qwen3-32b,"<think>
+
+</think>
+
+B",B,True
+professional_psychology_101,professional_psychology,Social Science,A,qwen/qwen3-32b,"<think>
+Okay, let's see. The question is about a psychologist whose patient has admitted to sexually molesting a child, and the patient has a prior history of such behavior. The psychologist needs to decide what to do.
+
+First, I remember that in psychology, there's the duty to warn and protect, especially in cases where there's a risk of harm to others. But also, there are legal obligations when it comes to child abuse. In many jurisdictions, child abuse is a mandatory report. So even though confidentiality is important in therapy, there are exceptions when there's a danger to others, especially minors.
+
+The options are A to D. Let me go through them. 
+
+Option A says notify the authorities immediately and inform the patient. That sounds like it's following the law, but maybe informing the patient might give them a heads-up? But if it's a legal requirement, maybe you have to report regardless. 
+
+Option B suggests warning the patient to stop or else confidentiality is lost. But if the patient has already committed the act and has a prior history, just warning them might not be enough. Plus, the psychologist might be legally obligated to report regardless of the warning.
+
+Option C says inform the parents first before authorities. But I think the standard procedure is to",D,False
+professional_psychology_102,professional_psychology,Social Science,A,qwen/qwen3-32b,"<think>
+</think>
+
+A",A,True
+professional_psychology_103,professional_psychology,Social Science,C,qwen/qwen3-32b,"<think>
+</think>
+
+C",C,True
+professional_psychology_104,professional_psychology,Social Science,B,qwen/qwen3-32b,"<think>
+</think>
+
+B",B,True
+world_religions_105,world_religions,Humanities,A,qwen/qwen3-32b,"<think>
+</think>
+
+A",A,True
+world_religions_106,world_religions,Humanities,C,qwen/qwen3-32b,"<think>
+
+</think>
+
+C",C,True
+world_religions_107,world_religions,Humanities,D,qwen/qwen3-32b,"<think>
+</think>
+
+A",A,False
+world_religions_108,world_religions,Humanities,D,qwen/qwen3-32b,"<think>
+</think>
+
+D",D,True
+world_religions_109,world_religions,Humanities,B,qwen/qwen3-32b,"<think>
+</think>
+
+B",B,True
+abstract_algebra_0,abstract_algebra,STEM,B,llama-3.1-8b-instant,A,A,False
+abstract_algebra_1,abstract_algebra,STEM,A,llama-3.1-8b-instant,A,A,True
+abstract_algebra_2,abstract_algebra,STEM,B,llama-3.1-8b-instant,A,A,False
+abstract_algebra_3,abstract_algebra,STEM,C,llama-3.1-8b-instant,C,C,True
+abstract_algebra_4,abstract_algebra,STEM,C,llama-3.1-8b-instant,A,A,False
+anatomy_5,anatomy,STEM,B,llama-3.1-8b-instant,A,A,False
+anatomy_6,anatomy,STEM,C,llama-3.1-8b-instant,C,C,True
+anatomy_7,anatomy,STEM,C,llama-3.1-8b-instant,C,C,True
+anatomy_8,anatomy,STEM,D,llama-3.1-8b-instant,D,D,True
+anatomy_9,anatomy,STEM,A,llama-3.1-8b-instant,A,A,True
+astronomy_10,astronomy,STEM,B,llama-3.1-8b-instant,A,A,False
+astronomy_11,astronomy,STEM,D,llama-3.1-8b-instant,A,A,False
+astronomy_12,astronomy,STEM,A,llama-3.1-8b-instant,A,A,True
+astronomy_13,astronomy,STEM,A,llama-3.1-8b-instant,A,A,True
+astronomy_14,astronomy,STEM,C,llama-3.1-8b-instant,A,A,False
+college_biology_15,college_biology,STEM,B,llama-3.1-8b-instant,B,B,True
+college_biology_16,college_biology,STEM,C,llama-3.1-8b-instant,C,C,True
+college_biology_17,college_biology,STEM,B,llama-3.1-8b-instant,B,B,True
+college_biology_18,college_biology,STEM,C,llama-3.1-8b-instant,A,A,False
+college_biology_19,college_biology,STEM,B,llama-3.1-8b-instant,A,A,False
+college_chemistry_20,college_chemistry,STEM,B,llama-3.1-8b-instant,A,A,False
+college_chemistry_21,college_chemistry,STEM,D,llama-3.1-8b-instant,A,A,False
+college_chemistry_22,college_chemistry,STEM,D,llama-3.1-8b-instant,D,D,True
+college_chemistry_23,college_chemistry,STEM,D,llama-3.1-8b-instant,A,A,False
+college_chemistry_24,college_chemistry,STEM,D,llama-3.1-8b-instant,A,A,False
+college_computer_science_25,college_computer_science,STEM,A,llama-3.1-8b-instant,D,D,False
+college_computer_science_26,college_computer_science,STEM,D,llama-3.1-8b-instant,A,A,False
+college_computer_science_27,college_computer_science,STEM,C,llama-3.1-8b-instant,B,B,False
+college_computer_science_28,college_computer_science,STEM,C,llama-3.1-8b-instant,C,C,True
+college_computer_science_29,college_computer_science,STEM,C,llama-3.1-8b-instant,A,A,False
+college_mathematics_30,college_mathematics,STEM,D,llama-3.1-8b-instant,A,A,False
+college_mathematics_31,college_mathematics,STEM,D,llama-3.1-8b-instant,D,D,True
+college_mathematics_32,college_mathematics,STEM,C,llama-3.1-8b-instant,A,A,False
+college_mathematics_33,college_mathematics,STEM,A,llama-3.1-8b-instant,A,A,True
+college_mathematics_34,college_mathematics,STEM,D,llama-3.1-8b-instant,A,A,False
+college_physics_35,college_physics,STEM,B,llama-3.1-8b-instant,A,A,False
+college_physics_36,college_physics,STEM,D,llama-3.1-8b-instant,A,A,False
+college_physics_37,college_physics,STEM,A,llama-3.1-8b-instant,A,A,True
+college_physics_38,college_physics,STEM,D,llama-3.1-8b-instant,A,A,False
+college_physics_39,college_physics,STEM,A,llama-3.1-8b-instant,A,A,True
+conceptual_physics_40,conceptual_physics,STEM,B,llama-3.1-8b-instant,A,A,False
+conceptual_physics_41,conceptual_physics,STEM,B,llama-3.1-8b-instant,A,A,False
+conceptual_physics_42,conceptual_physics,STEM,D,llama-3.1-8b-instant,D,D,True
+conceptual_physics_43,conceptual_physics,STEM,D,llama-3.1-8b-instant,D,D,True
+conceptual_physics_44,conceptual_physics,STEM,A,llama-3.1-8b-instant,C,C,False
+electrical_engineering_45,electrical_engineering,STEM,A,llama-3.1-8b-instant,A,A,True
+electrical_engineering_46,electrical_engineering,STEM,A,llama-3.1-8b-instant,A,A,True
+electrical_engineering_47,electrical_engineering,STEM,B,llama-3.1-8b-instant,B,B,True
+electrical_engineering_48,electrical_engineering,STEM,D,llama-3.1-8b-instant,D,D,True
+electrical_engineering_49,electrical_engineering,STEM,C,llama-3.1-8b-instant,C,C,True
+elementary_mathematics_50,elementary_mathematics,STEM,B,llama-3.1-8b-instant,A,A,False
+elementary_mathematics_51,elementary_mathematics,STEM,D,llama-3.1-8b-instant,D,D,True
+elementary_mathematics_52,elementary_mathematics,STEM,A,llama-3.1-8b-instant,A,A,True
+elementary_mathematics_53,elementary_mathematics,STEM,D,llama-3.1-8b-instant,A,A,False
+elementary_mathematics_54,elementary_mathematics,STEM,C,llama-3.1-8b-instant,B,B,False
+formal_logic_55,formal_logic,STEM,D,llama-3.1-8b-instant,D,D,True
+formal_logic_56,formal_logic,STEM,D,llama-3.1-8b-instant,A,A,False
+formal_logic_57,formal_logic,STEM,D,llama-3.1-8b-instant,A,A,False
+formal_logic_58,formal_logic,STEM,C,llama-3.1-8b-instant,A,A,False
+formal_logic_59,formal_logic,STEM,B,llama-3.1-8b-instant,A,A,False
+high_school_biology_60,high_school_biology,STEM,A,llama-3.1-8b-instant,A,A,True
+high_school_biology_61,high_school_biology,STEM,C,llama-3.1-8b-instant,C,C,True
+high_school_biology_62,high_school_biology,STEM,B,llama-3.1-8b-instant,B,B,True
+high_school_biology_63,high_school_biology,STEM,C,llama-3.1-8b-instant,C,C,True
+high_school_biology_64,high_school_biology,STEM,A,llama-3.1-8b-instant,A,A,True
+high_school_chemistry_65,high_school_chemistry,STEM,D,llama-3.1-8b-instant,A,A,False
+high_school_chemistry_66,high_school_chemistry,STEM,C,llama-3.1-8b-instant,A,A,False
+high_school_chemistry_67,high_school_chemistry,STEM,A,llama-3.1-8b-instant,A,A,True
+high_school_chemistry_68,high_school_chemistry,STEM,D,llama-3.1-8b-instant,A,A,False
+high_school_chemistry_69,high_school_chemistry,STEM,C,llama-3.1-8b-instant,A,A,False
+high_school_mathematics_70,high_school_mathematics,STEM,B,llama-3.1-8b-instant,A,A,False
+high_school_mathematics_71,high_school_mathematics,STEM,D,llama-3.1-8b-instant,A,A,False
+high_school_mathematics_72,high_school_mathematics,STEM,C,llama-3.1-8b-instant,A,A,False
+high_school_mathematics_73,high_school_mathematics,STEM,C,llama-3.1-8b-instant,A,A,False
+high_school_mathematics_74,high_school_mathematics,STEM,D,llama-3.1-8b-instant,A,A,False
+high_school_physics_75,high_school_physics,STEM,D,llama-3.1-8b-instant,A,A,False
+high_school_physics_76,high_school_physics,STEM,B,llama-3.1-8b-instant,A,A,False
+high_school_physics_77,high_school_physics,STEM,A,llama-3.1-8b-instant,A,A,True
+high_school_physics_78,high_school_physics,STEM,C,llama-3.1-8b-instant,A,A,False
+high_school_physics_79,high_school_physics,STEM,A,llama-3.1-8b-instant,A,A,True
+machine_learning_80,machine_learning,STEM,B,llama-3.1-8b-instant,A,A,False
+machine_learning_81,machine_learning,STEM,A,llama-3.1-8b-instant,A,A,True
+machine_learning_82,machine_learning,STEM,C,llama-3.1-8b-instant,D,D,False
+machine_learning_83,machine_learning,STEM,C,llama-3.1-8b-instant,A,A,False
+machine_learning_84,machine_learning,STEM,C,llama-3.1-8b-instant,A,A,False
+philosophy_85,philosophy,Humanities,D,llama-3.1-8b-instant,A,A,False
+philosophy_86,philosophy,Humanities,C,llama-3.1-8b-instant,C,C,True
+philosophy_87,philosophy,Humanities,D,llama-3.1-8b-instant,D,D,True
+philosophy_88,philosophy,Humanities,D,llama-3.1-8b-instant,A,A,False
+philosophy_89,philosophy,Humanities,D,llama-3.1-8b-instant,A,A,False
+professional_law_90,professional_law,Social Science,A,llama-3.1-8b-instant,A,A,True
+professional_law_91,professional_law,Social Science,B,llama-3.1-8b-instant,A,A,False
+professional_law_92,professional_law,Social Science,D,llama-3.1-8b-instant,A,A,False
+professional_law_93,professional_law,Social Science,D,llama-3.1-8b-instant,A,A,False
+professional_law_94,professional_law,Social Science,C,llama-3.1-8b-instant,A,A,False
+professional_medicine_95,professional_medicine,Social Science,D,llama-3.1-8b-instant,A,A,False
+professional_medicine_96,professional_medicine,Social Science,A,llama-3.1-8b-instant,A,A,True
+professional_medicine_97,professional_medicine,Social Science,C,llama-3.1-8b-instant,A,A,False
+professional_medicine_98,professional_medicine,Social Science,D,llama-3.1-8b-instant,D,D,True
+professional_medicine_99,professional_medicine,Social Science,B,llama-3.1-8b-instant,A,A,False
+professional_psychology_100,professional_psychology,Social Science,B,llama-3.1-8b-instant,A,A,False
+professional_psychology_101,professional_psychology,Social Science,A,llama-3.1-8b-instant,A,A,True
+professional_psychology_102,professional_psychology,Social Science,A,llama-3.1-8b-instant,A,A,True
+professional_psychology_103,professional_psychology,Social Science,C,llama-3.1-8b-instant,C,C,True
+professional_psychology_104,professional_psychology,Social Science,B,llama-3.1-8b-instant,B,B,True
+world_religions_105,world_religions,Humanities,A,llama-3.1-8b-instant,A,A,True
+world_religions_106,world_religions,Humanities,C,llama-3.1-8b-instant,C,C,True
+world_religions_107,world_religions,Humanities,D,llama-3.1-8b-instant,A,A,False
+world_religions_108,world_religions,Humanities,D,llama-3.1-8b-instant,D,D,True
+world_religions_109,world_religions,Humanities,B,llama-3.1-8b-instant,B,B,True
+abstract_algebra_0,abstract_algebra,STEM,B,openai/gpt-oss-120b,B,B,True
+abstract_algebra_1,abstract_algebra,STEM,A,openai/gpt-oss-120b,,,False
+abstract_algebra_2,abstract_algebra,STEM,B,openai/gpt-oss-120b,B,B,True
+abstract_algebra_3,abstract_algebra,STEM,C,openai/gpt-oss-120b,C,C,True
+abstract_algebra_4,abstract_algebra,STEM,C,openai/gpt-oss-120b,C,C,True
+anatomy_5,anatomy,STEM,B,openai/gpt-oss-120b,C,C,False
+anatomy_6,anatomy,STEM,C,openai/gpt-oss-120b,C,C,True
+anatomy_7,anatomy,STEM,C,openai/gpt-oss-120b,C,C,True
+anatomy_8,anatomy,STEM,D,openai/gpt-oss-120b,D,D,True
+anatomy_9,anatomy,STEM,A,openai/gpt-oss-120b,A,A,True
+astronomy_10,astronomy,STEM,B,openai/gpt-oss-120b,B,B,True
+astronomy_11,astronomy,STEM,D,openai/gpt-oss-120b,D,D,True
+astronomy_12,astronomy,STEM,A,openai/gpt-oss-120b,A,A,True
+astronomy_13,astronomy,STEM,A,openai/gpt-oss-120b,A,A,True
+astronomy_14,astronomy,STEM,C,openai/gpt-oss-120b,C,C,True
+college_biology_15,college_biology,STEM,B,openai/gpt-oss-120b,,,False
+college_biology_16,college_biology,STEM,C,openai/gpt-oss-120b,C,C,True
+college_biology_17,college_biology,STEM,B,openai/gpt-oss-120b,B,B,True
+college_biology_18,college_biology,STEM,C,openai/gpt-oss-120b,C,C,True
+college_biology_19,college_biology,STEM,B,openai/gpt-oss-120b,B,B,True
+college_chemistry_20,college_chemistry,STEM,B,openai/gpt-oss-120b,B,B,True
+college_chemistry_21,college_chemistry,STEM,D,openai/gpt-oss-120b,,,False
+college_chemistry_22,college_chemistry,STEM,D,openai/gpt-oss-120b,D,D,True
+college_chemistry_23,college_chemistry,STEM,D,openai/gpt-oss-120b,,,False
+college_chemistry_24,college_chemistry,STEM,D,openai/gpt-oss-120b,D,D,True
+college_computer_science_25,college_computer_science,STEM,A,openai/gpt-oss-120b,,,False
+college_computer_science_26,college_computer_science,STEM,D,openai/gpt-oss-120b,D,D,True
+college_computer_science_27,college_computer_science,STEM,C,openai/gpt-oss-120b,C,C,True
+college_computer_science_28,college_computer_science,STEM,C,openai/gpt-oss-120b,C,C,True
+college_computer_science_29,college_computer_science,STEM,C,openai/gpt-oss-120b,C,C,True
+college_mathematics_30,college_mathematics,STEM,D,openai/gpt-oss-120b,,,False
+college_mathematics_31,college_mathematics,STEM,D,openai/gpt-oss-120b,D,D,True
+college_mathematics_32,college_mathematics,STEM,C,openai/gpt-oss-120b,,,False
+college_mathematics_33,college_mathematics,STEM,A,openai/gpt-oss-120b,A,A,True
+college_mathematics_34,college_mathematics,STEM,D,openai/gpt-oss-120b,,,False
+college_physics_35,college_physics,STEM,B,openai/gpt-oss-120b,,,False
+college_physics_36,college_physics,STEM,D,openai/gpt-oss-120b,D,D,True
+college_physics_37,college_physics,STEM,A,openai/gpt-oss-120b,A,A,True
+college_physics_38,college_physics,STEM,D,openai/gpt-oss-120b,D,D,True
+college_physics_39,college_physics,STEM,A,openai/gpt-oss-120b,A,A,True
+conceptual_physics_40,conceptual_physics,STEM,B,openai/gpt-oss-120b,B,B,True
+conceptual_physics_41,conceptual_physics,STEM,B,openai/gpt-oss-120b,B,B,True
+conceptual_physics_42,conceptual_physics,STEM,D,openai/gpt-oss-120b,D,D,True
+conceptual_physics_43,conceptual_physics,STEM,D,openai/gpt-oss-120b,D,D,True
+conceptual_physics_44,conceptual_physics,STEM,A,openai/gpt-oss-120b,A,A,True
+electrical_engineering_45,electrical_engineering,STEM,A,openai/gpt-oss-120b,,,False
+electrical_engineering_46,electrical_engineering,STEM,A,openai/gpt-oss-120b,A,A,True
+electrical_engineering_47,electrical_engineering,STEM,B,openai/gpt-oss-120b,B,B,True
+electrical_engineering_48,electrical_engineering,STEM,D,openai/gpt-oss-120b,D,D,True
+electrical_engineering_49,electrical_engineering,STEM,C,openai/gpt-oss-120b,C,C,True
+elementary_mathematics_50,elementary_mathematics,STEM,B,openai/gpt-oss-120b,B,B,True
+elementary_mathematics_51,elementary_mathematics,STEM,D,openai/gpt-oss-120b,D,D,True
+elementary_mathematics_52,elementary_mathematics,STEM,A,openai/gpt-oss-120b,A,A,True
+elementary_mathematics_53,elementary_mathematics,STEM,D,openai/gpt-oss-120b,D,D,True
+elementary_mathematics_54,elementary_mathematics,STEM,C,openai/gpt-oss-120b,C,C,True
+formal_logic_55,formal_logic,STEM,D,openai/gpt-oss-120b,D,D,True
+formal_logic_56,formal_logic,STEM,D,openai/gpt-oss-120b,D,D,True
+formal_logic_57,formal_logic,STEM,D,openai/gpt-oss-120b,,,False
+formal_logic_58,formal_logic,STEM,C,openai/gpt-oss-120b,C,C,True
+formal_logic_59,formal_logic,STEM,B,openai/gpt-oss-120b,,,False
+high_school_biology_60,high_school_biology,STEM,A,openai/gpt-oss-120b,A,A,True
+high_school_biology_61,high_school_biology,STEM,C,openai/gpt-oss-120b,C,C,True
+high_school_biology_62,high_school_biology,STEM,B,openai/gpt-oss-120b,B,B,True
+high_school_biology_63,high_school_biology,STEM,C,openai/gpt-oss-120b,C,C,True
+high_school_biology_64,high_school_biology,STEM,A,openai/gpt-oss-120b,A,A,True
+high_school_chemistry_65,high_school_chemistry,STEM,D,openai/gpt-oss-120b,D,D,True
+high_school_chemistry_66,high_school_chemistry,STEM,C,openai/gpt-oss-120b,C,C,True
+high_school_chemistry_67,high_school_chemistry,STEM,A,openai/gpt-oss-120b,A,A,True
+high_school_chemistry_68,high_school_chemistry,STEM,D,openai/gpt-oss-120b,,,False
+high_school_chemistry_69,high_school_chemistry,STEM,C,openai/gpt-oss-120b,C,C,True
+high_school_mathematics_70,high_school_mathematics,STEM,B,openai/gpt-oss-120b,B,B,True
+high_school_mathematics_71,high_school_mathematics,STEM,D,openai/gpt-oss-120b,,,False
+high_school_mathematics_72,high_school_mathematics,STEM,C,openai/gpt-oss-120b,C,C,True
+high_school_mathematics_73,high_school_mathematics,STEM,C,openai/gpt-oss-120b,C,C,True
+high_school_mathematics_74,high_school_mathematics,STEM,D,openai/gpt-oss-120b,B,B,False
+high_school_physics_75,high_school_physics,STEM,D,openai/gpt-oss-120b,,,False
+high_school_physics_76,high_school_physics,STEM,B,openai/gpt-oss-120b,B,B,True
+high_school_physics_77,high_school_physics,STEM,A,openai/gpt-oss-120b,B,B,False
+high_school_physics_78,high_school_physics,STEM,C,openai/gpt-oss-120b,C,C,True
+high_school_physics_79,high_school_physics,STEM,A,openai/gpt-oss-120b,C,C,False
+machine_learning_80,machine_learning,STEM,B,openai/gpt-oss-120b,B,B,True
+machine_learning_81,machine_learning,STEM,A,openai/gpt-oss-120b,A,A,True
+machine_learning_82,machine_learning,STEM,C,openai/gpt-oss-120b,C,C,True
+machine_learning_83,machine_learning,STEM,C,openai/gpt-oss-120b,C,C,True
+machine_learning_84,machine_learning,STEM,C,openai/gpt-oss-120b,C,C,True
+philosophy_85,philosophy,Humanities,D,openai/gpt-oss-120b,,,False
+philosophy_86,philosophy,Humanities,C,openai/gpt-oss-120b,C,C,True
+philosophy_87,philosophy,Humanities,D,openai/gpt-oss-120b,D,D,True
+philosophy_88,philosophy,Humanities,D,openai/gpt-oss-120b,D,D,True
+philosophy_89,philosophy,Humanities,D,openai/gpt-oss-120b,D,D,True
+professional_law_90,professional_law,Social Science,A,openai/gpt-oss-120b,,,False
+professional_law_91,professional_law,Social Science,B,openai/gpt-oss-120b,B,B,True
+professional_law_92,professional_law,Social Science,D,openai/gpt-oss-120b,A,A,False
+professional_law_93,professional_law,Social Science,D,openai/gpt-oss-120b,,,False
+professional_law_94,professional_law,Social Science,C,openai/gpt-oss-120b,C,C,True
+professional_medicine_95,professional_medicine,Social Science,D,openai/gpt-oss-120b,D,D,True
+professional_medicine_96,professional_medicine,Social Science,A,openai/gpt-oss-120b,A,A,True
+professional_medicine_97,professional_medicine,Social Science,C,openai/gpt-oss-120b,C,C,True
+professional_medicine_98,professional_medicine,Social Science,D,openai/gpt-oss-120b,D,D,True
+professional_medicine_99,professional_medicine,Social Science,B,openai/gpt-oss-120b,,,False
+professional_psychology_100,professional_psychology,Social Science,B,openai/gpt-oss-120b,B,B,True
+professional_psychology_101,professional_psychology,Social Science,A,openai/gpt-oss-120b,A,A,True
+professional_psychology_102,professional_psychology,Social Science,A,openai/gpt-oss-120b,A,A,True
+professional_psychology_103,professional_psychology,Social Science,C,openai/gpt-oss-120b,C,C,True
+professional_psychology_104,professional_psychology,Social Science,B,openai/gpt-oss-120b,B,B,True
+world_religions_105,world_religions,Humanities,A,openai/gpt-oss-120b,A,A,True
+world_religions_106,world_religions,Humanities,C,openai/gpt-oss-120b,C,C,True
+world_religions_107,world_religions,Humanities,D,openai/gpt-oss-120b,D,D,True
+world_religions_108,world_religions,Humanities,D,openai/gpt-oss-120b,D,D,True
+world_religions_109,world_religions,Humanities,B,openai/gpt-oss-120b,B,B,True

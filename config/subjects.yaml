@@ -8,24 +8,24 @@ max_items_per_subject: 5
 
 subjects:
   - abstract_algebra
-  # - anatomy
-  # - astronomy
-  # - college_biology
-  # - college_chemistry
-  # - college_computer_science
-  # - college_mathematics
-  # - college_physics
-  # - conceptual_physics
-  # - electrical_engineering
-  # - elementary_mathematics
-  # - formal_logic
-  # - high_school_biology
-  # - high_school_chemistry
-  # - high_school_mathematics
-  # - high_school_physics
-  # - machine_learning
-  # - philosophy
-  # - professional_law
-  # - professional_medicine
-  # - professional_psychology
-  # - world_religions
+  - anatomy
+  - astronomy
+  - college_biology
+  - college_chemistry
+  - college_computer_science
+  - college_mathematics
+  - college_physics
+  - conceptual_physics
+  - electrical_engineering
+  - elementary_mathematics
+  - formal_logic
+  - high_school_biology
+  - high_school_chemistry
+  - high_school_mathematics
+  - high_school_physics
+  - machine_learning
+  - philosophy
+  - professional_law
+  - professional_medicine
+  - professional_psychology
+  - world_religions

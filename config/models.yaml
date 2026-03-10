@@ -2,16 +2,16 @@
 # Use these exact names when pulling/running: ollama pull <model_name>
 # Recommended set for the project (adjust if using smaller models locally):
 models:
+  - "qwen/qwen3-32b"
   - "llama-3.1-8b-instant"
-  - "gemma2-9b-it"
-  - "qwen-2.5-coder-32b"
+  - "openai/gpt-oss-120b"
 
 # Optional system prompt applied to all models. Leave empty or null for none.
 # Keep identical across models for fair comparison.
-system_prompt: null
+system_prompt: "You are a helpful assistant. You must solve the multiple-choice question and output ONLY the correct answer letter (A, B, C, or D). Do not write '<think>' or any reasoning. Just output the letter."
 
-# Local inference endpoint (Ollama default)
-inference:
-  base_url: "http://localhost:11434"
-  timeout_seconds: 120
-  max_retries: 2
+# # Local inference endpoint (Ollama default)
+# inference:
+#   base_url: "http://localhost:11434"
+#   timeout_seconds: 120
+#   max_retries: 2
