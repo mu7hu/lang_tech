@@ -48,7 +48,7 @@ def load_mmlu_subset(
     dataset_name: str = "cais/mmlu",
     split: str = "test",
     subjects: list[str] | None = None,
-    max_items_per_subject: int = 50,
+    max_items_per_subject: int = 5,
     seed: int = 42,
 ) -> list[dict]:
     """
@@ -136,6 +136,8 @@ def get_mmlu_subset_cached(
     Load MMLU subset, optionally cache to disk under data/ for faster reruns.
     kwargs are passed to load_mmlu_subset (dataset_name, split, subjects, etc.).
     """
+    
+
     if cache_dir is None:
         cache_dir = Path(__file__).resolve().parent.parent / "data"
     cache_dir = Path(cache_dir)
@@ -161,7 +163,7 @@ if __name__ == "__main__":
     cfg = load_subjects_config()
     items = load_mmlu_subset(
         subjects=cfg.get("subjects"),
-        max_items_per_subject=cfg.get("max_items_per_subject", 50),
+        max_items_per_subject=cfg.get("max_items_per_subject", 5),
         seed=cfg.get("seed", 42),
     )
     print(f"Loaded {len(items)} items across {len(set(i['subject'] for i in items))} subjects.")

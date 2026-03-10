@@ -58,18 +58,19 @@ def run_pipeline(
         from src.load_mmlu import get_mmlu_subset_cached
         items = get_mmlu_subset_cached(
             subjects=subj_cfg.get("subjects"),
-            max_items_per_subject=subj_cfg.get("max_items_per_subject", 50),
+            max_items_per_subject=subj_cfg.get("max_items_per_subject", 5),
             seed=subj_cfg.get("seed", 42),
         )
     else:
         items = load_mmlu_subset(
             subjects=subj_cfg.get("subjects"),
-            max_items_per_subject=subj_cfg.get("max_items_per_subject", 50),
+            max_items_per_subject=subj_cfg.get("max_items_per_subject", 5),
             seed=subj_cfg.get("seed", 42),
         )
     print(f"Loaded {len(items)} MMLU items.")
 
     models_cfg = load_models_config()
+    print("loaded models")
     models = models_cfg.get("models", [])
     if not models:
         raise ValueError("No models in config/models.yaml")

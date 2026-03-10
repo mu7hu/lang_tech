@@ -2,9 +2,9 @@
 # Use these exact names when pulling/running: ollama pull <model_name>
 # Recommended set for the project (adjust if using smaller models locally):
 models:
-  - llama3.1:8b-instruct-q4_K_M
-  - qwen2.5:7b-instruct
-  - mistral:7b-instruct
+  - "llama-3.1-8b-instant"
+  - "gemma2-9b-it"
+  - "qwen-2.5-coder-32b"
 
 # Optional system prompt applied to all models. Leave empty or null for none.
 # Keep identical across models for fair comparison.

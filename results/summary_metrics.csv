@@ -1,0 +1,8 @@
+model,overall_accuracy,invalid_rate,valid_count,total
+llama-3.1-8b-instant,0.0000,1.0000,0,1100
+gemma2-9b-it,0.0000,1.0000,0,1100
+qwen-2.5-coder-32b,0.0000,1.0000,0,1100
+
+model,subject,accuracy
+
+model,domain,accuracy
