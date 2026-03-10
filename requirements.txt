@@ -1,0 +1,10 @@
+# LLM MMLU evaluation pipeline — Python dependencies
+# Install: pip install -r requirements.txt
+# All packages are free and usable offline after install (datasets may download MMLU once).
+
+datasets>=2.14.0
+requests>=2.28.0
+pandas>=1.5.0
+matplotlib>=3.6.0
+PyYAML>=6.0
+fsspec>=2023.1.0,<2023.10.0

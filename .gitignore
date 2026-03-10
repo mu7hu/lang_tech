@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# Pipeline outputs (optional: commit sample results for reproducibility)
+# results/raw_results.csv
+# results/summary_metrics.csv
+# results/error_analysis.csv
+# results/figures/*.png
+
+# Cached MMLU subset (optional)
+# data/mmlu_subset.pt
+
+# IDE / OS
+.idea/
+.DS_Store
+*.swp
+*.swo
+node_modules

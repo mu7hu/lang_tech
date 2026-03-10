@@ -1,0 +1,33 @@
+# Mapping from MMLU subject names to broader domains.
+# Unmapped subjects will be labeled as "Other".
+# Domains used: STEM, Humanities, Social Science, Other
+
+STEM:
+  - abstract_algebra
+  - anatomy
+  - astronomy
+  - college_biology
+  - college_chemistry
+  - college_computer_science
+  - college_mathematics
+  - college_physics
+  - conceptual_physics
+  - electrical_engineering
+  - elementary_mathematics
+  - formal_logic
+  - high_school_biology
+  - high_school_chemistry
+  - high_school_mathematics
+  - high_school_physics
+  - machine_learning
+
+Humanities:
+  - philosophy
+  - world_religions
+
+Social Science:
+  - professional_law
+  - professional_medicine
+  - professional_psychology
+
+# Any subject not listed above will be treated as Other.

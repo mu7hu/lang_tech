@@ -1,0 +1,31 @@
+# MMLU subjects to include in the evaluation subset.
+# Use a balanced set across domains (see subject_to_domain.yaml).
+# max_items_per_subject: sample at most this many items per subject (for speed and balance).
+# seed: fixed for reproducibility.
+
+seed: 42
+max_items_per_subject: 5
+
+subjects:
+  - abstract_algebra
+  - anatomy
+  - astronomy
+  - college_biology
+  - college_chemistry
+  - college_computer_science
+  - college_mathematics
+  - college_physics
+  - conceptual_physics
+  - electrical_engineering
+  - elementary_mathematics
+  - formal_logic
+  - high_school_biology
+  - high_school_chemistry
+  - high_school_mathematics
+  - high_school_physics
+  - machine_learning
+  - philosophy
+  - professional_law
+  - professional_medicine
+  - professional_psychology
+  - world_religions

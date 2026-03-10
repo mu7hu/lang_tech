@@ -1,0 +1,17 @@
+# Configurable model names (Ollama model identifiers).
+# Use these exact names when pulling/running: ollama pull <model_name>
+# Recommended set for the project (adjust if using smaller models locally):
+models:
+  - llama3.1:8b-instruct-q4_K_M
+  - qwen2.5:7b-instruct
+  - mistral:7b-instruct
+
+# Optional system prompt applied to all models. Leave empty or null for none.
+# Keep identical across models for fair comparison.
+system_prompt: null
+
+# Local inference endpoint (Ollama default)
+inference:
+  base_url: "http://localhost:11434"
+  timeout_seconds: 120
+  max_retries: 2
