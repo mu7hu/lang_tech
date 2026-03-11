@@ -27,6 +27,7 @@ def parse_answer(raw_output: str) -> tuple[str | None, bool]:
         r"(?:answer|Answer)\s*[:\s]+\s*([ABCD])",
         r"([ABCD])\s*[.)]\s*(?:\s|$)",
         r"\b([ABCD])\b",
+        r"(?:^|[\s:()])([ABCD])(?=[\s.)]|$)",
     ]:
         m = re.search(pattern, text, re.IGNORECASE)
         if m:

@@ -139,7 +139,10 @@ def run_pipeline(
     metrics = compute_metrics(rows)
     export_summary_metrics(metrics, results_dir / "summary_metrics.csv")
     export_error_analysis(rows, results_dir / "error_analysis.csv")
+    print("DEBUG: Metrics keys are:", metrics.keys())
     generate_all_charts(metrics, figures_dir)
+    print("DEBUG: Overall metrics are:", metrics.get("overall"))
+
     print(f"Results written to {results_dir}")
     print("Overall accuracy:", {m: f"{metrics['overall'][m]['accuracy']:.4f}" for m in metrics["overall"]})
 

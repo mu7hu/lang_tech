@@ -58,6 +58,11 @@ formal_logic_56,formal_logic,STEM,D,qwen/qwen3-32b,A,"<think>
 </think>
 
 A"
+formal_logic_57,formal_logic,STEM,D,qwen/qwen3-32b,C,"<think>
+
+</think>
+
+C"
 high_school_chemistry_67,high_school_chemistry,STEM,A,qwen/qwen3-32b,C,"<think>
 
 </think>
@@ -102,10 +107,6 @@ professional_law_93,professional_law,Social Science,D,qwen/qwen3-32b,A,"<think>
 </think>
 
 A"
-professional_psychology_101,professional_psychology,Social Science,A,qwen/qwen3-32b,D,"<think>
-Okay, let's see. The question is about a psychologist whose patient has admitted to sexually molesting a child, and the patient has a prior history of such behavior. The psychologist needs to decide what to do.
-
-First, I remember that in psychology, there's the duty to warn and protect, especially in cases where there's a risk of harm to others. But also, there are legal obligations when it comes to child abuse. In many jurisdictions, child abuse is a mandatory report. So even though con"
 world_religions_107,world_religions,Humanities,D,qwen/qwen3-32b,A,"<think>
 </think>
 
@@ -172,7 +173,6 @@ professional_medicine_99,professional_medicine,Social Science,B,llama-3.1-8b-ins
 professional_psychology_100,professional_psychology,Social Science,B,llama-3.1-8b-instant,A,A
 world_religions_107,world_religions,Humanities,D,llama-3.1-8b-instant,A,A
 anatomy_5,anatomy,STEM,B,openai/gpt-oss-120b,C,C
-high_school_mathematics_74,high_school_mathematics,STEM,D,openai/gpt-oss-120b,B,B
 high_school_physics_77,high_school_physics,STEM,A,openai/gpt-oss-120b,B,B
 high_school_physics_79,high_school_physics,STEM,A,openai/gpt-oss-120b,C,C
 professional_law_92,professional_law,Social Science,D,openai/gpt-oss-120b,A,A

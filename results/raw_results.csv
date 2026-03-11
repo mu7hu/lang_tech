@@ -70,7 +70,6 @@ astronomy_13,astronomy,STEM,A,qwen/qwen3-32b,"<think>
 
 A",A,True
 astronomy_14,astronomy,STEM,C,qwen/qwen3-32b,"<think>
-
 </think>
 
 C",C,True
@@ -95,6 +94,7 @@ college_biology_18,college_biology,STEM,C,qwen/qwen3-32b,"<think>
 
 C",C,True
 college_biology_19,college_biology,STEM,B,qwen/qwen3-32b,"<think>
+
 </think>
 
 B",B,True
@@ -282,7 +282,7 @@ formal_logic_57,formal_logic,STEM,D,qwen/qwen3-32b,"<think>
 
 </think>
 
-D",D,True
+C",C,False
 formal_logic_58,formal_logic,STEM,C,qwen/qwen3-32b,"<think>
 
 </think>
@@ -354,6 +354,7 @@ high_school_mathematics_71,high_school_mathematics,STEM,D,qwen/qwen3-32b,"<think
 
 C",C,False
 high_school_mathematics_72,high_school_mathematics,STEM,C,qwen/qwen3-32b,"<think>
+
 </think>
 
 C) 5",C,True
@@ -422,6 +423,7 @@ philosophy_85,philosophy,Humanities,D,qwen/qwen3-32b,"<think>
 
 A",A,False
 philosophy_86,philosophy,Humanities,C,qwen/qwen3-32b,"<think>
+
 </think>
 
 C",C,True
@@ -495,17 +497,9 @@ professional_psychology_100,professional_psychology,Social Science,B,qwen/qwen3-
 
 B",B,True
 professional_psychology_101,professional_psychology,Social Science,A,qwen/qwen3-32b,"<think>
-Okay, let's see. The question is about a psychologist whose patient has admitted to sexually molesting a child, and the patient has a prior history of such behavior. The psychologist needs to decide what to do.
+</think>
 
-First, I remember that in psychology, there's the duty to warn and protect, especially in cases where there's a risk of harm to others. But also, there are legal obligations when it comes to child abuse. In many jurisdictions, child abuse is a mandatory report. So even though confidentiality is important in therapy, there are exceptions when there's a danger to others, especially minors.
-
-The options are A to D. Let me go through them. 
-
-Option A says notify the authorities immediately and inform the patient. That sounds like it's following the law, but maybe informing the patient might give them a heads-up? But if it's a legal requirement, maybe you have to report regardless. 
-
-Option B suggests warning the patient to stop or else confidentiality is lost. But if the patient has already committed the act and has a prior history, just warning them might not be enough. Plus, the psychologist might be legally obligated to report regardless of the warning.
-
-Option C says inform the parents first before authorities. But I think the standard procedure is to",D,False
+A",A,True
 professional_psychology_102,professional_psychology,Social Science,A,qwen/qwen3-32b,"<think>
 </think>
 
@@ -523,7 +517,6 @@ world_religions_105,world_religions,Humanities,A,qwen/qwen3-32b,"<think>
 
 A",A,True
 world_religions_106,world_religions,Humanities,C,qwen/qwen3-32b,"<think>
-
 </think>
 
 C",C,True
@@ -664,7 +657,7 @@ astronomy_11,astronomy,STEM,D,openai/gpt-oss-120b,D,D,True
 astronomy_12,astronomy,STEM,A,openai/gpt-oss-120b,A,A,True
 astronomy_13,astronomy,STEM,A,openai/gpt-oss-120b,A,A,True
 astronomy_14,astronomy,STEM,C,openai/gpt-oss-120b,C,C,True
-college_biology_15,college_biology,STEM,B,openai/gpt-oss-120b,,,False
+college_biology_15,college_biology,STEM,B,openai/gpt-oss-120b,B,B,True
 college_biology_16,college_biology,STEM,C,openai/gpt-oss-120b,C,C,True
 college_biology_17,college_biology,STEM,B,openai/gpt-oss-120b,B,B,True
 college_biology_18,college_biology,STEM,C,openai/gpt-oss-120b,C,C,True
@@ -675,9 +668,9 @@ college_chemistry_22,college_chemistry,STEM,D,openai/gpt-oss-120b,D,D,True
 college_chemistry_23,college_chemistry,STEM,D,openai/gpt-oss-120b,,,False
 college_chemistry_24,college_chemistry,STEM,D,openai/gpt-oss-120b,D,D,True
 college_computer_science_25,college_computer_science,STEM,A,openai/gpt-oss-120b,,,False
-college_computer_science_26,college_computer_science,STEM,D,openai/gpt-oss-120b,D,D,True
+college_computer_science_26,college_computer_science,STEM,D,openai/gpt-oss-120b,,,False
 college_computer_science_27,college_computer_science,STEM,C,openai/gpt-oss-120b,C,C,True
-college_computer_science_28,college_computer_science,STEM,C,openai/gpt-oss-120b,C,C,True
+college_computer_science_28,college_computer_science,STEM,C,openai/gpt-oss-120b,,,False
 college_computer_science_29,college_computer_science,STEM,C,openai/gpt-oss-120b,C,C,True
 college_mathematics_30,college_mathematics,STEM,D,openai/gpt-oss-120b,,,False
 college_mathematics_31,college_mathematics,STEM,D,openai/gpt-oss-120b,D,D,True
@@ -705,7 +698,7 @@ elementary_mathematics_52,elementary_mathematics,STEM,A,openai/gpt-oss-120b,A,A,
 elementary_mathematics_53,elementary_mathematics,STEM,D,openai/gpt-oss-120b,D,D,True
 elementary_mathematics_54,elementary_mathematics,STEM,C,openai/gpt-oss-120b,C,C,True
 formal_logic_55,formal_logic,STEM,D,openai/gpt-oss-120b,D,D,True
-formal_logic_56,formal_logic,STEM,D,openai/gpt-oss-120b,D,D,True
+formal_logic_56,formal_logic,STEM,D,openai/gpt-oss-120b,,,False
 formal_logic_57,formal_logic,STEM,D,openai/gpt-oss-120b,,,False
 formal_logic_58,formal_logic,STEM,C,openai/gpt-oss-120b,C,C,True
 formal_logic_59,formal_logic,STEM,B,openai/gpt-oss-120b,,,False
@@ -719,11 +712,11 @@ high_school_chemistry_66,high_school_chemistry,STEM,C,openai/gpt-oss-120b,C,C,Tr
 high_school_chemistry_67,high_school_chemistry,STEM,A,openai/gpt-oss-120b,A,A,True
 high_school_chemistry_68,high_school_chemistry,STEM,D,openai/gpt-oss-120b,,,False
 high_school_chemistry_69,high_school_chemistry,STEM,C,openai/gpt-oss-120b,C,C,True
-high_school_mathematics_70,high_school_mathematics,STEM,B,openai/gpt-oss-120b,B,B,True
+high_school_mathematics_70,high_school_mathematics,STEM,B,openai/gpt-oss-120b,,,False
 high_school_mathematics_71,high_school_mathematics,STEM,D,openai/gpt-oss-120b,,,False
 high_school_mathematics_72,high_school_mathematics,STEM,C,openai/gpt-oss-120b,C,C,True
 high_school_mathematics_73,high_school_mathematics,STEM,C,openai/gpt-oss-120b,C,C,True
-high_school_mathematics_74,high_school_mathematics,STEM,D,openai/gpt-oss-120b,B,B,False
+high_school_mathematics_74,high_school_mathematics,STEM,D,openai/gpt-oss-120b,,,False
 high_school_physics_75,high_school_physics,STEM,D,openai/gpt-oss-120b,,,False
 high_school_physics_76,high_school_physics,STEM,B,openai/gpt-oss-120b,B,B,True
 high_school_physics_77,high_school_physics,STEM,A,openai/gpt-oss-120b,B,B,False
@@ -749,7 +742,7 @@ professional_medicine_96,professional_medicine,Social Science,A,openai/gpt-oss-1
 professional_medicine_97,professional_medicine,Social Science,C,openai/gpt-oss-120b,C,C,True
 professional_medicine_98,professional_medicine,Social Science,D,openai/gpt-oss-120b,D,D,True
 professional_medicine_99,professional_medicine,Social Science,B,openai/gpt-oss-120b,,,False
-professional_psychology_100,professional_psychology,Social Science,B,openai/gpt-oss-120b,B,B,True
+professional_psychology_100,professional_psychology,Social Science,B,openai/gpt-oss-120b,,,False
 professional_psychology_101,professional_psychology,Social Science,A,openai/gpt-oss-120b,A,A,True
 professional_psychology_102,professional_psychology,Social Science,A,openai/gpt-oss-120b,A,A,True
 professional_psychology_103,professional_psychology,Social Science,C,openai/gpt-oss-120b,C,C,True

@@ -22,6 +22,8 @@ def plot_overall_accuracy(metrics: dict, out_path: Path | str) -> None:
     if not overall:
         return
     models = list(overall.keys())
+    print(f"DEBUG: Plotting Overall Accuracy. Models found: {list(overall.keys())}")
+
     accs = [overall[m]["accuracy"] for m in models]
     x = np.arange(len(models))
     plt.figure(figsize=(8, 5))

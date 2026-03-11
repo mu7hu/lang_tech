@@ -1,7 +1,7 @@
 model,overall_accuracy,invalid_rate,valid_count,total
 qwen/qwen3-32b,0.7909,0.0000,110,110
 llama-3.1-8b-instant,0.4455,0.0000,110,110
-openai/gpt-oss-120b,0.9451,0.1727,91,110
+openai/gpt-oss-120b,0.9535,0.2182,86,110
 
 model,subject,accuracy
 qwen/qwen3-32b,abstract_algebra,0.6000
@@ -15,7 +15,7 @@ qwen/qwen3-32b,college_physics,0.6000
 qwen/qwen3-32b,conceptual_physics,1.0000
 qwen/qwen3-32b,electrical_engineering,0.8000
 qwen/qwen3-32b,elementary_mathematics,0.8000
-qwen/qwen3-32b,formal_logic,0.8000
+qwen/qwen3-32b,formal_logic,0.6000
 qwen/qwen3-32b,high_school_biology,1.0000
 qwen/qwen3-32b,high_school_chemistry,0.8000
 qwen/qwen3-32b,high_school_mathematics,0.6000
@@ -24,7 +24,7 @@ qwen/qwen3-32b,machine_learning,0.8000
 qwen/qwen3-32b,philosophy,0.8000
 qwen/qwen3-32b,professional_law,0.6000
 qwen/qwen3-32b,professional_medicine,1.0000
-qwen/qwen3-32b,professional_psychology,0.8000
+qwen/qwen3-32b,professional_psychology,1.0000
 qwen/qwen3-32b,world_religions,0.8000
 llama-3.1-8b-instant,abstract_algebra,0.4000
 llama-3.1-8b-instant,anatomy,0.8000
@@ -62,7 +62,7 @@ openai/gpt-oss-120b,elementary_mathematics,1.0000
 openai/gpt-oss-120b,formal_logic,1.0000
 openai/gpt-oss-120b,high_school_biology,1.0000
 openai/gpt-oss-120b,high_school_chemistry,1.0000
-openai/gpt-oss-120b,high_school_mathematics,0.7500
+openai/gpt-oss-120b,high_school_mathematics,1.0000
 openai/gpt-oss-120b,high_school_physics,0.5000
 openai/gpt-oss-120b,machine_learning,1.0000
 openai/gpt-oss-120b,philosophy,1.0000
@@ -72,12 +72,12 @@ openai/gpt-oss-120b,professional_psychology,1.0000
 openai/gpt-oss-120b,world_religions,1.0000
 
 model,domain,accuracy
-qwen/qwen3-32b,STEM,0.7882
+qwen/qwen3-32b,STEM,0.7765
 qwen/qwen3-32b,Humanities,0.8000
-qwen/qwen3-32b,Social Science,0.8000
+qwen/qwen3-32b,Social Science,0.8667
 llama-3.1-8b-instant,STEM,0.4235
 llama-3.1-8b-instant,Humanities,0.6000
 llama-3.1-8b-instant,Social Science,0.4667
-openai/gpt-oss-120b,STEM,0.9429
+openai/gpt-oss-120b,STEM,0.9545
 openai/gpt-oss-120b,Humanities,1.0000
-openai/gpt-oss-120b,Social Science,0.9167
+openai/gpt-oss-120b,Social Science,0.9091
